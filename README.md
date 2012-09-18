@@ -49,10 +49,10 @@ initialTransitionMatrices.add(matrix);
 The sample code above represents the following transition matrix. In this matrix, the probability of a field with CropA transitioning to CropB is 0.4, and the probability of a field with CropB transitioning to CropA is 0.2.
 
 ```
-        | CropA | CropB 
--------------------------
-  CropA |  0.6  |  0.4
-  CropB |  0.2  |  0.8
+          | CropA | CropB 
+---------------------------
+  CropA   |  0.6  |  0.4
+  CropB   |  0.2  |  0.8
 ```
 
 You can then create the project and run the simulation using the interface.
@@ -89,10 +89,9 @@ System.out.println("Year 4 = " + crops[3]);
 System.out.println("Year 5 = " + crops[4]);
 ```
 
-### Under OSX/Linux
+## Under OSX/Linux
 
-If you wish to run LandSFACTS on OSX or Linux, you will need to build for these platforms. The source code is [available upon request](http://www.macaulay.ac.uk/LandSFACTS/download.php).
-
+If you wish to run LandSFACTS on OSX or Linux, you will need to build for these platforms. The source code is [available upon request](http://www.macaulay.ac.uk/LandSFACTS/download.php). A number minor changes to the code are required - some unnecessary Windows specific calls are present. I'll document these in the future, or potentially upload the modified source.
 
 ## Build
 
