@@ -1,0 +1,1 @@
+ConditionID	SimYear	GpPlgID	GpCID	Proporti	Dev	TimeFail

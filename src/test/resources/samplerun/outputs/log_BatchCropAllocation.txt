@@ -1,0 +1,26 @@
+----------------------------------------
+log_Batch of 'samplerun' . 
+---------------------------------------- 
+latest algorithm update: 18/11/09 
+this file comprises all the Simulation outputs 
+
+
+Seed for Batch: 1291045282
+Seed array: 
+393109022	724911185	1481326029	
+
+
+BatchSimReport: 
+BatchID:	FailedSim	Year	NbIteration	NbCondFailed	Penalty	Seed
+
+0	0	0	0	0	0	393109022
+1	0	0	0	0	0	724911185
+2	0	0	0	0	0	1481326029
+
+Final BatchSimReport: 
+BatchSimReport:	FailedSim	Year	NbIteration	NbCondFailed	Penalty	Seed
+0 :	0	0	0	0	0	393109022
+1 :	0	0	0	0	0	724911185
+2 :	0	0	0	0	0	1481326029
+
+----------------------

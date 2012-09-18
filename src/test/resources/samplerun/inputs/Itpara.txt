@@ -1,0 +1,2 @@
+AllRdmx	AllRdpenal	Rdmx	Rdpenal	RdinTMmx	RdinTMpenal	CidGpmx	CidGppenal	UnivCidmx	UnivCidpenal	SimAnnealing
+100	0	1000	0	0	0	0	0	0	0	20

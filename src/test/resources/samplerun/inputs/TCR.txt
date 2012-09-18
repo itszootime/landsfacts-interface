@@ -1,0 +1,1 @@
+ConditionID	ReturnP	InaRow	InaRowMax	GpCID

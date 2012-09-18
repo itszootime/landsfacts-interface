@@ -1,0 +1,6 @@
+.DS_store
+.project
+.classpath
+.settings
+src/test/resources/landsfacts.properties
+target

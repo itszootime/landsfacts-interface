@@ -1,0 +1,1 @@
+ConditionID	Distance	GpCID	PercMin	PercMax	NbGpmin	NbGpmax	CompactMin	CompactMax
