@@ -12,7 +12,7 @@ import org.uncertweb.landsfacts.data.CropAllocation;
 import org.uncertweb.landsfacts.data.Project;
 import org.uncertweb.landsfacts.test.TestData;
 
-public class LandsfactsRunnerTest {
+public class LandsfactsInterfaceTest {
 	
 	@Test
 	public void run() throws LandsfactsException {
@@ -34,11 +34,11 @@ public class LandsfactsRunnerTest {
 		// create runner
 		String path = properties.getProperty("executable.path");
 		if (path != null) {
-			LandsfactsRunner runner = new LandsfactsRunner(path);
+			LandsfactsInterface itf = new LandsfactsInterface(path);
 			
 			// create project
 			Project project = new Project(TestData.getInitialTransitionMatrices(), TestData.getFieldDescriptions(), 3);
-			List<CropAllocation> cropAllocations = runner.run(project);
+			List<CropAllocation> cropAllocations = itf.run(project);
 			Assert.assertEquals(3, cropAllocations.size());
 		}
 		else {

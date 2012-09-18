@@ -12,12 +12,12 @@ import org.slf4j.LoggerFactory;
 import org.uncertweb.landsfacts.data.CropAllocation;
 import org.uncertweb.landsfacts.data.Project;
 
-public class LandsfactsRunner {
+public class LandsfactsInterface {
 
-	private final Logger logger = LoggerFactory.getLogger(LandsfactsRunner.class);
+	private final Logger logger = LoggerFactory.getLogger(LandsfactsInterface.class);
 	private String executablePath;
 
-	public LandsfactsRunner(String executablePath) {
+	public LandsfactsInterface(String executablePath) {
 		this.executablePath = executablePath;
 	}
 
