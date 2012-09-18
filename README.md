@@ -1,4 +1,4 @@
-Interface for a local [LandSFACTS](http://www.macaulay.ac.uk/LandSFACTS/) instance.
+A Java interface to a local [LandSFACTS](http://www.macaulay.ac.uk/LandSFACTS/) instance. This enables programmatic execution of LandSFACTS simulations, without having to deal with the vast number of input/output tab-separated files.
 
 ## Getting started
 
@@ -49,10 +49,10 @@ initialTransitionMatrices.add(matrix);
 The sample code above represents the following transition matrix. In this matrix, the probability of a field with CropA transitioning to CropB is 0.4, and the probability of a field with CropB transitioning to CropA is 0.2.
 
 ```
-          | CropA | CropB 
+         | CropA | CropB 
 ---------------------------
-  CropA   |  0.6  |  0.4
-  CropB   |  0.2  |  0.8
+  CropA  |  0.6  |  0.4
+  CropB  |  0.2  |  0.8
 ```
 
 You can then create the project and run the simulation using the interface.
@@ -100,3 +100,7 @@ If you wish to build the project from source, rename `landsfacts.sample.properti
 ```console
 $ mvn clean package
 ```
+
+## Limitations
+
+Only a small number of input configurations are possible using the interface. There is no support for conditions, connectivity, etc.
