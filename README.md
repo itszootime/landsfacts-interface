@@ -1,4 +1,4 @@
-A Java interface to a local [LandSFACTS](http://www.macaulay.ac.uk/LandSFACTS/) instance. This enables programmatic execution of LandSFACTS simulations, without having to deal with the vast number of input/output tab-separated files.
+A Java interface for a local [LandSFACTS](http://www.macaulay.ac.uk/LandSFACTS/) instance. This enables programmatic execution of LandSFACTS simulations, without having to deal with the vast number of input/output tab-separated files.
 
 ## Getting started
 
