@@ -1,4 +1,4 @@
-A Java interface to a local [LandSFACTS](http://www.macaulay.ac.uk/LandSFACTS/) instance. This enables programmatic execution of LandSFACTS simulations, without having to deal with the vast number of input/output tab-separated files.
+A Java interface for a local [LandSFACTS](http://www.macaulay.ac.uk/LandSFACTS/) instance. This enables programmatic execution of LandSFACTS simulations, without having to deal with the vast number of input/output tab-separated files.
 
 ## Getting started
 
@@ -63,7 +63,7 @@ int numSimulations = 3; // this is the default
 Project project = new Project(fieldDescriptions, initialTransitionMatrices, numSimulations);
 
 // Create interface
-LandsfactsInterface landsfactsInterface = new LandsfactsInterface("C:\\landsfacts\\LandSFACTS_2-0-4.exe");
+LandsfactsInterface landsfactsInterface = new LandsfactsInterface("C:\\path\\to\\landsfacts\\CropAllocation.exe");
 
 // Run
 List<CropAllocation> cropAllocations = landsfactsInterface.run(project);
