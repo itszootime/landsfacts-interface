@@ -91,7 +91,7 @@ System.out.println("Year 5 = " + crops[4]);
 
 ### Under OSX/Linux
 
-If you wish to run LandSFACTS on OSX or Linux, you will need to build for these platforms. The source code is [available upon request](http://www.macaulay.ac.uk/LandSFACTS/download.php). A number minor changes to the code are required - some unnecessary Windows specific calls are present. I'll document these in the future, or potentially upload the modified source.
+If you wish to run LandSFACTS on OSX or Linux, you will need to build the executable program specifically for these platforms. The source code is [available upon request](http://www.macaulay.ac.uk/LandSFACTS/download.php). A number minor changes to the code are required - some unnecessary Windows specific calls are present. I'll document these in the future, or potentially upload the modified source.
 
 ## Build
 
